@@ -1,4 +1,4 @@
-package AreaDoTriangulo;
+package AreaDoTriangulo_Ex_1;
 
 public class Triangulo {
 

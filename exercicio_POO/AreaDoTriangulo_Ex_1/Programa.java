@@ -1,4 +1,4 @@
-package AreaDoTriangulo;
+package AreaDoTriangulo_Ex_1;
 
 import java.util.Locale;
 import java.util.Scanner;
