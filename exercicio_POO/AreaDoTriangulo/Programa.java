@@ -1,9 +1,7 @@
-package aplicacao;
+package AreaDoTriangulo;
 
 import java.util.Locale;
 import java.util.Scanner;
-
-import entidades.Triangulo;
 
 public class Programa {
 

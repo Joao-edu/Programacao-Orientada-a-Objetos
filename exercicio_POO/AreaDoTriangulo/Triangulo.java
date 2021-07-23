@@ -1,4 +1,4 @@
-package entidades;
+package AreaDoTriangulo;
 
 public class Triangulo {
 
