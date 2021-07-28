@@ -1,4 +1,4 @@
-package Estoque_Ex2;
+package Exercicio_Estoque;
 
 public class Produto {
 

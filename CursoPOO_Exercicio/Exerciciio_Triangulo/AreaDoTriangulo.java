@@ -1,9 +1,9 @@
-package AreaDoTriangulo_Ex1;
+package Exerciciio_Triangulo;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class Programa {
+public class AreaDoTriangulo {
 
 	public static void main(String[] args) {
 
@@ -22,16 +22,14 @@ public class Programa {
 
 		System.out.println("Digite as medidas do triangulo Y:");
 
-		 x.a = sc.nextDouble();
-		 x.b= sc.nextDouble();
-		 x.c = sc.nextDouble();
+		 y.a = sc.nextDouble();
+		 y.b= sc.nextDouble();
+		 y.c = sc.nextDouble();
 		
-		double p = (x.a + x.b + x.c) / 2.0;
-		double areax = Math.sqrt(p * (p - x.a) * (p - x.b) * ( p - x.c));
+		 double areax = x.area();
+		 double areay = y.area();
 		
-		p = (y.a + y.b + y.c) / 2.0;
-		double areay = Math.sqrt(p *(p - y.a) * (p - y.b) * (p - y.c));
-
+		
 		System.out.printf("Area do triangulo X: %.4f\n", areax);
 		System.out.printf("Area do triangulo Y: %.4f\n", areay);
 	

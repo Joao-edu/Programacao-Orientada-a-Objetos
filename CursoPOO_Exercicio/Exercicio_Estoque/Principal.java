@@ -1,4 +1,4 @@
-package Estoque_Ex2;
+package Exercicio_Estoque;
 
 import java.util.Locale;
 import java.util.Scanner;
