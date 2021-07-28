@@ -1,0 +1,24 @@
+package Curso_algoritmo_POO;
+import java.util.Scanner;
+
+public class Estru_Repetitiva_Exercicio_5 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int n = sc.nextInt();
+
+		int fat = 1;
+
+		for (int i = 1; i <= n; i++) {
+
+			fat = fat * i;
+
+		}
+
+		System.out.println("" + fat);
+		sc.close();
+	}
+
+}
